@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# 🏗️ Layout Builder
+Um construtor de layouts web interativo e dinâmico, desenvolvido com React, que permite aos usuários criar e manipular elementos visuais em diferentes modelos de layout CSS (Absolute, Flexbox e Grid) em tempo real. Além disso, a ferramenta gera o código CSS correspondente para cada layout, facilitando o desenvolvimento front-end.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ✨ Features
+ - Adicionar, Remover e Manipular Elementos: Crie, exclua, arraste e redimensione blocos de conteúdo no canvas.
+ - Múltiplos Modos de Layout:
+ - Absolute Positioning: Controle preciso da posição de cada elemento com coordenadas X e Y.
+ - Flexbox: Utilize as poderosas propriedades do Flexbox (flex-direction, justify-content, align-items) para organizar os elementos.
+ - CSS Grid: Defina a estrutura de colunas e linhas (grid-template-columns, grid-template-rows) e o espaçamento (gap) para criar layouts complexos.
+ - Edição de Conteúdo: Altere o texto interno de cada elemento com um clique duplo.
+ - Reordenação de Elementos: Altere a ordem dos elementos através de uma lista lateral de drag-and-drop, impactando diretamente layouts Flexbox e Grid.
+ - Geração de Código CSS em Tempo Real: Visualize e copie o código CSS gerado automaticamente para o layout do container e seus elementos, facilitando a integração em seus próprios projetos.
 
-## Available Scripts
 
-In the project directory, you can run:
+### 🚀 Como Rodar o Projeto
+Siga estas instruções para configurar e rodar o projeto localmente:
 
-### `npm start`
+#### 1 - Clone o repositório:
+```sh
+git clone https://github.com/Rhulys/Layout-Builder.git
+cd Layout-Builder
+```
+#### 2 - Instale as dependências:
+```sh
+npm install
+ou
+yarn install
+```
+#### 3 - Inicie o servidor de desenvolvimento:
+```sh
+npm start
+ou
+yarn start
+```
+O aplicativo estará disponível em http://localhost:3000 (ou outra porta disponível).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tecnologias Utilizadas
+ - React: Biblioteca JavaScript para construção de interfaces de usuário.
+ - Styled Components: Para estilização baseada em componentes, permitindo CSS-in-JS.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 💡 Próximos Passos (Roadmap)
+Este projeto está em constante evolução. Futuras funcionalidades planejadas incluem:
 
-### `npm test`
+ - Persistência de Dados: Salvar e carregar layouts criados.
+ - Duplicação de Elementos: Opção para duplicar um elemento existente.
+ - Mais Opções de Estilo: Controles para cor de fundo, bordas, etc., dos elementos individuais.
+ - Responsividade da Ferramenta: Melhorar a experiência de usuário da própria ferramenta em diferentes tamanhos de tela.
+ - Sinta-se à vontade para sugerir melhorias ou contribuir!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🤝 Contribuição
+Contribuições são bem-vindas! Se você tiver alguma ideia, sugestão ou quiser reportar um bug, por favor, abra uma issue ou envie um pull request.
 
-### `npm run build`
+## 📄 Licença
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 👤 Autor
+Rhulys: [GITHUB](https://github.com/Rhulys) - [LINKEDIN](https://www.linkedin.com/in/rhulys/)
